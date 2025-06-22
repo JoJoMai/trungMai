@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>~ Trung Mai's Portfolio ~</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="matrixCanvas"></canvas>
+    <div class="crt-container">
+        <div class="desktop">
+            <div class="window portfolio-window" id="portfolioWindow" data-app-id="portfolio">
+                <div class="window-header">
+                    <span>📁 trung_mai_portfolio.json</span>
+                    <div class="window-controls">
+                        <div class="window-button minimize" data-action="minimize" data-window="portfolioWindow">_</div>
+                        <div class="window-button maximize" data-action="maximize" data-window="portfolioWindow">□</div>
+                        <div class="window-button close" data-action="close" data-window="portfolioWindow">×</div>
+                    </div>
+                </div>
+                <div class="window-content">
+                    <div class="ascii-art">
+████████╗██████╗ ██╗   ██╗███╗   ██╗ ██████╗     ███╗   ███╗ █████╗ ██╗
+╚══██╔══╝██╔══██╗██║   ██║████╗  ██║██╔════╝     ████╗ ████║██╔══██╗██║
+   ██║   ██████╔╝██║   ██║██╔██╗ ██║██║  ███╗    ██╔████╔██║███████║██║
+   ██║   ██╔══██╗██║   ██║██║╚██╗██║██║   ██║    ██║╚██╔╝██║██╔══██║██║
+   ██║   ██║  ██║╚██████╔╝██║ ╚████║╚██████╔╝    ██║ ╚═╝ ██║██║  ██║██║
+   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝     ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝
+                    </div>
+                    <div class="section">
+                        <h3>👤 Personal Information</h3>
+                        <div class="about-me-container">
+                            <div class="profile-picture-container">
+                                <img src="image/TrungImage.png" alt="Trung Mai's Picture" class="profile-picture">
+                            </div>
+                            <div class="about-me-text">
+                                <p><strong>Full Name:</strong> Trung Mai</p>
+                                <p><strong>Professional Title:</strong> Full Stack Developer</p>
+                                <p><strong>Graduation Year:</strong> 2027</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>🧠 About Trung</h3>
+                        <p>"I'm Trung, a passionate Software Engineer who loves tackling challenges across the entire stack. I build responsive web solutions with React, Node.js, and Express.js, and I'm equally fascinated by low-level programming, especially Operating Systems, and how they power software. My goal is to create efficient, maintainable code that genuinely enhances user experience and system performance."</p>
+                        <br>
+                        <p><strong>Passionate about:</strong><br>
+                        - Full stack web development<br>
+                        - Operating systems and low-level programming</p>
+                        <br>
+                        <p><strong>Goal:</strong> Build efficient, maintainable, user- and performance-focused software.</p>
+                    </div>
+                    <div class="section">
+                        <h3>💼 Professional Experience</h3>
+                        <div class="experience-item">
+                            <strong>Senior Full Stack Developer</strong>
+                            <em>TechCorp Solutions | Jan 2022 – Present</em>
+                            <p>Led development of enterprise-scale applications for 50K+ users, designed and implemented microservices architecture, and mentored a team of developers.</p>
+                        </div>
+                        <div class="experience-item">
+                            <strong>Full Stack Developer</strong>
+                            <em>Digital Innovations Inc. | Mar 2020 – Dec 2021</em>
+                            <p>Built and maintained full-stack client projects, optimized application performance achieving 95+ Lighthouse scores, and delivered pixel-perfect UIs.</p>
+                        </div>
+                        <div class="experience-item">
+                            <strong>Frontend Developer</strong>
+                            <em>StartupXYZ | Jun 2018 – Feb 2020</em>
+                            <p>Developed responsive web apps with a focus on real-time features using WebSockets and collaborated with stakeholders to define tech requirements.</p>
+                        </div>
+                        <div class="experience-item">
+                            <strong>Junior Web Developer</strong>
+                            <em>WebDev Agency | Sep 2017 – May 2018</em>
+                            <p>Built custom WordPress websites and gained foundational experience in agile methodologies and version control with Git.</p>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>🛠️ Skills</h3>
+                        <div class="skills-category">
+                            <h4>Programming Languages</h4>
+                            <p>Python, Java, C++, C, Golang, SQL, JavaScript, TypeScript, Swift, Assembly, HTML/CSS</p>
+                        </div>
+                        <div class="skills-category">
+                            <h4>Frameworks</h4>
+                            <p>React.js, Express.js, Node.js, Tailwind CSS</p>
+                        </div>
+                        <div class="skills-category">
+                            <h4>Databases</h4>
+                            <p>MySQL, PostgreSQL, MongoDB, Firebase</p>
+                        </div>
+                         <div class="skills-category">
+                            <h4>Tools / Platforms</h4>
+                            <p>Git, Kernel development, CI/CD pipelines, Linux, RISC-V, Virtual Machine, VS Code, Vite, AWS, Google Cloud Platform, Azure</p>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>💻 Featured Projects</h3>
+                        <div class="project-item">
+                            <strong>JoJo Operating System</strong><br>
+                            A 32-bit educational RISC-V OS kernel. Features multitasking, virtual memory, a VirtIO block driver, a TAR file system, and a functional shell.
+                        </div>
+                        <div class="project-item">
+                            <strong>Task Management App</strong><br>
+                            A real-time application for team coordination and task tracking. Built with Vue.js, Express.js, and Socket.io for live updates.
+                        </div>
+                        <div class="project-item">
+                            <strong>AI-Powered Dashboard</strong><br>
+                            An ML analytics dashboard for visualizing complex data sets. Built with Python on the backend, React for the frontend, and hosted on AWS.
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h3>📱 Social Media / Contact</h3>
+                        <div class="contact-links">
+                            <a href="https://github.com/JoJoMai" class="contact-link" target="_blank">GitHub</a>
+                            <a href="https://www.linkedin.com/in/trung-mai/" class="contact-link" target="_blank">LinkedIn</a>
+                            <a href="https://www.instagram.com/frogcheems/" class="contact-link" target="_blank">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="window terminal-window" id="terminalWindow" data-app-id="terminal">
+                <div class="window-header">
+                    <span>Terminal -- bash</span>
+                    <div class="window-controls">
+                        <div class="window-button minimize" data-action="minimize" data-window="terminalWindow">_</div>
+                        <div class="window-button maximize" data-action="maximize" data-window="terminalWindow">□</div>
+                        <div class="window-button close" data-action="close" data-window="terminalWindow">×</div>
+                    </div>
+                </div>
+                <div class="terminal-content" id="terminalContent">
+                    <div id="terminalOutput">
+                        <div class="terminal-line">Last login: Sun Jun 22 12:47:29 2025 on ttys001</div>
+                        <div class="terminal-line">Welcome to Trung Mai's interactive portfolio (2025)</div>
+                    </div>
+                    <div class="terminal-line" id="terminalInputLine">
+                        <span class="prompt"></span>
+                        <input type="text" class="command-input" id="commandInput" autocomplete="off" autofocus>
+                        <span class="blinking-cursor">█</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="start-menu" id="startMenu">
+            <div class="start-menu-header">System Menu</div>
+            <div class="start-menu-items">
+                <div class="start-menu-item" data-action="open" data-app="portfolio">📁 Portfolio</div>
+                <div class="start-menu-item" data-action="open" data-app="terminal">💻 Terminal</div>
+            </div>
+        </div>
+        
+        <div class="navbar">
+            <button class="start-button" id="startButton">▶ Start</button>
+            <div class="taskbar-apps" id="taskbarApps">
+                <div class="taskbar-app active" id="portfolioTask" data-action="toggle" data-window="portfolioWindow">
+                    📁 Portfolio
+                </div>
+                <div class="taskbar-app active" id="terminalTask" data-action="toggle" data-window="terminalWindow">
+                    💻 Terminal
+                </div>
+            </div>
+            <div class="system-tray">
+                <div class="system-indicator" title="Network Status">📶</div>
+                <div class="system-indicator" title="Volume">🔊</div>
+                <div class="system-indicator" title="Power">🔋</div>
+                <div class="clock" id="clock">12:00:00</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
